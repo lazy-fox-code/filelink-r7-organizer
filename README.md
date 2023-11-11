@@ -8,14 +8,13 @@ Cloud and generates a link you can send by mail instead of the file.
 
 ## Requirements
 
+* R7-Organizer: 102.5.0 or newer
+* R7-Organizer Pro: 1.0.0 or newer
 * Thunderbird: 68.2.1 or newer
-* An account on a server running a supported version of r7-office or r7office,
-  more specifically:
-  * [r7-office](https://r7-office.ru/): version 25 or newer (older versions
+* An account on a server running a supported version of r7-office, more specifically:
+  * [r7-office](https://r7-office.ru/): version 7.3 or newer (older versions
     might work, but are [not supported by
     r7-office](https://github.com/r7-office/server/wiki/Maintenance-and-Release-Schedule))
-  * [r7office](https://r7-office.ru/): version 10.0.10+ (10.0.9 and older
-    versions contain bugs that prevent __r7cloud__ from working).
 
   If you can't or don't want to run your own server, there are many offers for
   hosted r7-office services.

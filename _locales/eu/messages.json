@@ -1,0 +1,172 @@
+{
+  "extensionDescription": {
+    "message": "Igo eranskin handiak zure hodeira eta bidali esteka posta elektronikoz"
+  },
+  "extensionName": {
+    "message": "r7cloud - r7-office eta r7officeentzako FileLink"
+  },
+  "saveButton": {
+    "message": "Gorde"
+  },
+  "resetButton": {
+    "message": "Berrezarri"
+  },
+  "serverUrl": {
+    "message": "Zerbitzariaren URLa"
+  },
+  "serverUrl_details": {
+    "message": "Hodeiko zerbitzariaren oinarriko URLak http edo https-rekin hasi behar du.\nZure zerbitzariak ataka ez-estandar bat erabiltzen badu, jarri URLan."
+  },
+  "username": {
+    "message": "Erabiltzaile-izena"
+  },
+  "username_details": {
+    "message": "Hodeiko zerbitzariko zure erabiltzaile-izena"
+  },
+  "password": {
+    "message": "Aplikazio token edo pasahitza"
+  },
+  "password_details": {
+    "message": "Aplikazio token (gomendatua) edo pasahitza.\nr7-officeen gorde aurretik pasahitza aplikazio token bihurtzen saiatzen da gehigarria. Huts egiten badu, pasahitza enkriptatu gabe gordetzen da."
+  },
+  "storageFolder": {
+    "message": "Hodeiko biltegiratze bidea"
+  },
+  "storageFolder_details": {
+    "message": "Eranskinak gordeko diren hodeiko bidea. Ez bada existitzen, igotzean sortzen da."
+  },
+  "useNoDlPassword": {
+    "message": "Pasahitzik ez"
+  },
+  "useNoDlPassword_details": {
+    "message": "Ez da pasahitzik behar deskargatzeko"
+  },
+  "useGeneratedDlPassword": {
+    "message": "Erabili sortutako pasahitzak"
+  },
+  "useGeneratedDlPassword_details": {
+    "message": "Ausazko pasahitz bat sortuko da fitxategi bakoitzeko. Egin klik eranskinen panelaren gaineko r7cloud egoera botoian fitxategiak igo ondoren sortutako pasahitzak ikusi eta kopiatzeko."
+  },
+  "useDlPassword": {
+    "message": "Babestu deskargak pasahitzekin"
+  },
+  "oneDlPassword": {
+    "message": "Pasahitz bat deskarga guztientzat"
+  },
+  "useDlPassword_details": {
+    "message": "Pasahitz honek zure hodeiko administratzaileak ezarritako arauak bete behar ditu (adib. luzera, karaktere sorta...). Bestela igoerak huts egingo du. Jakinarazi pasahitz hau jasotzaileei; eranskina deskargatzeko beharko dute."
+  },
+  "expiryDaysBefore": {
+    "message": "Deskargak iraungitzeko epea: "
+  },
+  "expiryDaysAfter": {
+    "message": " egun"
+  },
+  "expiry_details": {
+    "message": "Zenbat egunez egongo den deskarga bat eskuragarri, gaurkoa barne"
+  },
+  "freespace": {
+    "message": "Leku librea ($FREE$ / $FULL$)",
+    "placeholders": {
+      "free": {
+        "content": "$1"
+      },
+      "full": {
+        "content": "$2"
+      }
+    }
+  },
+  "success": {
+    "message": "Arrakasta"
+  },
+  "error_0": {
+    "message": "Errore ezezaguna ($1)"
+  },
+  "error_typeerror": {
+    "message": "Konexiorik ez. Egiaztatu zerbitzariaren URLa eta sareko konexioa"
+  },
+  "error_404": {
+    "message": "Kontua egiaztatzeak huts egin du: erabiltzaile-izen okerra edo hodei bateraezina edo sareko errorea"
+  },
+  "warn_unsupported_cloud": {
+    "message": "r7-office edo r7officeen bertsio zaharkitua. Datuak galdu ditzakezu. Eskatu hodeiaren administratzaileari eguneratzeko"
+  },
+  "obsolete_version": {
+    "description": "This is displayed over the icon if the cloud version is not supported, so it should be quite short and contain at most two lines.",
+    "message": "Bertsio\nzaharkitua"
+  },
+  "error_401": {
+    "message": "Saio hasierak huts egin du. Egiaztatu erabiltzaile-izena eta pasahitza."
+  },
+  "error_503": {
+    "message": "Zerbitzaria mantenu moduan dago. Saiatu berriz beranduago."
+  },
+  "error_sharing_off": {
+    "message": "Partekatzea desgaituta dago hodei honetan. Eskatu administratzaileari gaitzeko."
+  },
+  "error_invalid_pw": {
+    "message": "Deskargarako pasahitz baliogabea (igoerek huts egingo dute). Zerbitzariak dio: $1"
+  },
+  "error_password_enforced": {
+    "message": "Zure hodeiak deskargarako pasahitza eskatzen du."
+  },
+  "warn_expiry_too_long": {
+    "message": "Zure hodeiaren administratzaileak $1 eguneko gehienezko iraungitze-denbora ezarri du. Balioa mugatu da, bestela igoerek huts egingo lukete."
+  },
+  "warn_no_config_check": {
+    "message": "Kontua egiaztatzeak huts egin du. Sareko arazoak?"
+  },
+  "warn_insecure_http": {
+    "message": "http:-rekin zure saio hasierako datuak enkriptatu gabe transferituko dira. Hobe https: erabiltzea. Ez badabil, jakinarazi zure administratzaileari."
+  },
+  "status_menutooltip": {
+    "description": "This is displayed as a tooltip when the mouse pointer hovers over the menu button labelled with 'status_menuname'",
+    "message": "Erakutsi r7cloud igoeren egoera eta sortutako pasahitzak (baldin badaude)"
+  },
+  "status_menuname": {
+    "description": "This short text is displayed on the menu button that opens the status popup next to the r7cloud logo",
+    "message": "Egoera"
+  },
+  "status_no_uploads": {
+    "message": "Igoera aktiborik ez"
+  },
+  "status_button_clear": {
+    "description": "Button to remove error messages from status popup",
+    "message": "Garbitu osatutako igoerak"
+  },
+  "status_preparing": {
+    "description": "This will be displayed in the status popup. If this step fails this string will be combined with one indicating failure, eg 'Preparing file size failed'.",
+    "message": "Prestatzen"
+  },
+  "status_creating": {
+    "message": "Karpeta sortzen"
+  },
+  "status_moving": {
+    "message": "Gatazka sortzen duen fitxategia lekuz aldatzen"
+  },
+  "status_uploading": {
+    "message": "Igotzen"
+  },
+  "status_sharing": {
+    "message": "Partekatzen"
+  },
+  "status_checkingsize": {
+    "message": "Fitxategiaren gehienezko tamaina egiaztatzen"
+  },
+  "status_checkingspace": {
+    "message": "Leku librea egiaztatzen"
+  },
+  "status_error": {
+    "description": "This will be combined with one of the states above, eg 'Preparing failed'. If this doesn't work in your language, please tell me.",
+    "message": "$1 huts egin du"
+  },
+  "status_password": {
+    "message": "pasahitza: $1"
+  },
+  "warn_nonascii_password": {
+    "message": "Zure pasahitzak saioa hastean ziur aski arazoak emango dituzten karaktereak ditu. Erabili aplikazio token bat."
+  },
+  "advanced_options": {
+    "message": "Aukera aurreratuak"
+  }
+}

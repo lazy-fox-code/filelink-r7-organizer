@@ -1,0 +1,45 @@
+{
+    "applications": {
+        "gecko": {
+            "id": "lazy-fox-netbk@gmail.com",
+            "strict_min_version": "68.2.1"
+        }
+    },
+    "name": "__MSG_extensionName__",
+    "description": "__MSG_extensionDescription__",
+    "homepage_url": "https://github.com/lazy-fox-code/filelink-r7-organizer",
+    "author": "Lazy Fox",
+    "version": "1.0.0",
+    "icons": {
+        "48": "icon48.png"
+    },
+    "cloud_file": {
+        "name": "r7cloud",
+        "management_url": "prefspane/management.html",
+        "data_format": "File"
+    },
+    "permissions": [
+        "<all_urls>",
+        "storage",
+        "cookies"
+    ],
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "lib/utils.js",
+            "lib/generatePassword.js",
+            "lib/status.js",
+            "lib/davuploader.js",
+            "lib/cloudconnection.js",
+            "punycode/punycode.js",
+            "background.js"
+        ]
+    },
+    "compose_action": {
+        "default_popup": "progress/progress.html",
+        "default_label": "__MSG_status_menuname__",
+        "default_title": "__MSG_status_menutooltip__",
+        "default_icon": "icon48.png"
+    },
+    "default_locale": "ru"
+}
